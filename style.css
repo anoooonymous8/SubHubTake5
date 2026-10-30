@@ -1,0 +1,69 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Removes scrollbars */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.website-container {
+  width: 1080px;
+  height: 2340px;
+  background-image: url("app-pics/home-page.png");
+  background-size: cover;
+  position: absolute;
+  transform-origin: center center;
+}
+
+p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  width: 74%;
+  text-align: center;
+  color: white;
+}
+
+#randomName {
+  top: 10%;
+  font-size: 96px;
+  display: none;
+}
+
+#randomImage {
+  max-width: 800px;
+  max-height: 1000px;
+  width: auto;
+  height: auto;
+  top: 42%;
+  display: none;
+}
+
+#randomTask {
+  top: 70%;
+  font-size: 64px;
+  display: none;
+}
+
+#sendMe {
+  top: 88%;
+  display: none;
+}
+
+img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+#pastSessions {
+  top: 60%;
+}
+
+#subNow {
+  top: 76%;
+}
